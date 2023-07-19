@@ -1,4 +1,3 @@
-// FAQScreen.js
 import Footer from '../../components/patterns/Footer';
 import Link from '../../components/Link';
 import { theme } from '../../theme/theme';
@@ -187,5 +186,5 @@ export default function FAQScreen({ faq }) {
 }
 
 FAQScreen.defaultProps = {
-  faqs: [],
+  faq: [],
 };
